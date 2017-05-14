@@ -61,3 +61,11 @@ Just run the command above, download `dlnd_image_classification.ipynb` and repla
 3. I added a `.floydignore` file to stop local data from being uploaded to Floyd - which wastes time and may even result in a timeout ([see the commit](https://github.com/ludwiktrammer/deep-learning/commit/30d4b536b67366feef38425ce1406e969452717e), [learn more about `.floydignore` files](http://docs.floydhub.com/home/floyd_ignore/))
 
 3. I added this README
+
+## Results: Testing Accuracy: 0.7082605689764023
+Initially the model was giving out accuracy not more than 0.62 
+Tuned hyperparameters
+epochs = 50
+batch_size = 512
+keep_probability = 0.7
+
